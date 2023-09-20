@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+</head>
+<body>
+    
+    <header><h1>Bienvenido a la Escuela</h1></header>
+    <nav><ul><li><a href="index.html">Inicio</a></li><li><a href="inscripcion.html">Inscripción</a></li></ul></nav>
+    <main><h2>Contenidos</h2><p>Contenido de la página principal.</p></main>
+    <footer><p>Derechos reservados &copy; 2023</p></footer>
+
+    <header><h1>Inscripción a la Escuela</h1></header>
+    <nav><ul><li><a href="index.html">Inicio</a></li><li><a href="inscripcion.html">Inscripción</a></li></ul></nav>
+    <main>
+        <h2>Formulario de Inscripción</h2>
+        <form action="procesar_inscripcion.php" method="post">
+            <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre" required><br>
+            <label for="apellido">Apellido:</label><input type="text" id="apellido" name="apellido" required><br>
+            <label for="contrasena">Contraseña:</label><input type="password" id="contrasena" name="contrasena" maxlength="10" required><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <a href="index.html">Volver a la página inicial</a>
+    </main>
+    <footer><p>Derechos reservados &copy; 2023</p></footer>
+</body>
+</html>
